@@ -21,6 +21,11 @@ A [Spicetify](https://spicetify.app) custom app that lets you build and clean pl
 - **Diagnostics tab**: shows which Spotify APIs work on your setup (useful for bug reports).
 - **Languages**: English, Português (Brasil) and Español. Pick one in the app or leave it on **Automatic**, which follows Spotify's language and then the system's.
 
+![Tela do swipe](docs/swipe.png)
+![Tela do swipe](docs/add-songs.png)
+![Tela do swipe](docs/duplicates.png)
+![Tela do swipe](docs/tools.png)
+
 ## Requirements
 
 - The Spotify desktop app with [Spicetify](https://spicetify.app/docs/getting-started) installed and working.
@@ -64,10 +69,6 @@ spicetify apply
 | **Tools** | Export to text, find unavailable songs, sort into a new playlist, find where a song is, back up / restore. |
 | **Diagnostics** | Tests the Spotify APIs and the write path. |
 
-![Tela do swipe](docs/swipe.png)
-![Tela do swipe](docs/add-songs.png)
-![Tela do swipe](docs/duplicates.png)
-![Tela do swipe](docs/tools.png)
 
 Sorting and restoring never touch your existing playlists: sorting creates a sorted copy, and restoring creates new playlists named `<name> (restored)`.
 
@@ -117,6 +118,11 @@ This project is not affiliated with, endorsed by or sponsored by Spotify. Spicet
 - **Limpar playlist** (manter, remover ou mover), **Duplicadas** (remover uma ou todas), exportar playlist para texto e achar músicas indisponíveis.
 - Idiomas: Português (Brasil), English e Español, com a opção **Automático** (usa o idioma do Spotify e depois o do sistema).
 
+![Tela do swipe](docs/swipe.png)
+![Tela do swipe](docs/adicionar-sons.png)
+![Tela do swipe](docs/duplicadas.png)
+![Tela do swipe](docs/ferramentas.png)
+
 ## Instalação
 
 1. Abra a pasta de apps do Spicetify:
@@ -131,10 +137,6 @@ This project is not affiliated with, endorsed by or sponsored by Spotify. Spicet
 4. Feche o Spotify por completo (inclusive na bandeja do sistema) e abra de novo.
 
 Se algo falhar, abra a aba **Diagnóstico**, rode os testes e cole o resultado ao abrir uma issue.
-![Tela do swipe](docs/swipe.png)
-![Tela do swipe](docs/add-songs.png)
-![Tela do swipe](docs/duplicates.png)
-![Tela do swipe](docs/tools.png)
 
 ## Aviso
 
