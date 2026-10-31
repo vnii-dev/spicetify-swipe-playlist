@@ -131,6 +131,10 @@ This project is not affiliated with, endorsed by or sponsored by Spotify. Spicet
 4. Feche o Spotify por completo (inclusive na bandeja do sistema) e abra de novo.
 
 Se algo falhar, abra a aba **Diagnóstico**, rode os testes e cole o resultado ao abrir uma issue.
+![Tela do swipe](docs/swipe.png)
+![Tela do swipe](docs/add-songs.png)
+![Tela do swipe](docs/duplicates.png)
+![Tela do swipe](docs/tools.png)
 
 ## Aviso
 
