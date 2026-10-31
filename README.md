@@ -64,6 +64,11 @@ spicetify apply
 | **Tools** | Export to text, find unavailable songs, sort into a new playlist, find where a song is, back up / restore. |
 | **Diagnostics** | Tests the Spotify APIs and the write path. |
 
+![Tela do swipe](docs/swipe.png)
+![Tela do swipe](docs/add-songs.png)
+![Tela do swipe](docs/duplicates.png)
+![Tela do swipe](docs/tools.png)
+
 Sorting and restoring never touch your existing playlists: sorting creates a sorted copy, and restoring creates new playlists named `<name> (restored)`.
 
 List format: one song per line, `Song - Artist`. Numbering (`1.`), bullets and the `–` dash are accepted; `various` as the artist is ignored.
