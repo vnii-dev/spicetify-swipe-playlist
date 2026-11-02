@@ -56,6 +56,8 @@ git pull
 spicetify apply
 ```
 
+See the [CHANGELOG](CHANGELOG.md) for what changed in each version.
+
 ## Quick guide
 
 | Tab | What it does |
@@ -91,6 +93,10 @@ To add a language, edit `index.js`: add a block to the `I18N` object (the key is
 - Since February 2026 Spotify changed parts of its Web API (for example `/playlists/{id}/tracks` became `/items`), and in recent clients the `CosmosAsync` helper returns errors as plain objects instead of throwing. The app therefore reads and edits playlists through the client's internal APIs (`Spicetify.Platform`) first, and uses the web API only as a fallback.
 - Those internal APIs are not documented and may change between Spotify versions. Every write is verified (the app checks that the song really appeared or disappeared) before it is trusted.
 - Playlists of other people may not be readable, depending on Spotify's restrictions.
+
+## Privacy
+
+Swipe Playlist runs entirely inside your Spotify client. It only talks to Spotify (through the client's internal APIs and Spotify's own Web API, using the access token the client already has) and has no servers, analytics or tracking. The only things it stores are on your computer: your language choice and the progress of an unfinished session. Backups and exports are created locally and only leave your computer if you copy or share them yourself. The Diagnostics output may include a playlist name, so check it before pasting it in a public issue.
 
 ## Disclaimer
 
@@ -137,6 +143,10 @@ This project is not affiliated with, endorsed by or sponsored by Spotify. Spicet
 4. Feche o Spotify por completo (inclusive na bandeja do sistema) e abra de novo.
 
 Se algo falhar, abra a aba **Diagnóstico**, rode os testes e cole o resultado ao abrir uma issue.
+
+## Privacidade
+
+O Swipe Playlist roda inteiro dentro do seu Spotify. Ele só conversa com o Spotify (pelas APIs internas do cliente e pela API do próprio Spotify, usando o token que o cliente já tem) e não tem servidor, análise de uso nem rastreamento. O que ele guarda fica só no seu computador: a escolha de idioma e o progresso de uma sessão não terminada. Backups e exportações são gerados localmente e só saem do seu computador se você mesmo copiar ou compartilhar. A saída do Diagnóstico pode incluir o nome de uma playlist, então confira antes de colar numa issue pública.
 
 ## Aviso
 
